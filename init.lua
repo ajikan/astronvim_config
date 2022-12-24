@@ -269,6 +269,7 @@ local config = {
                                 as = "catppuccin",
                                 config = function() require("catppuccin").setup { flavour = "mocha" } end,
                         },
+                        ["christoomey/vim-tmux-navigator"] = {},
                         -- You can disable default plugins as follows:
                         -- ["goolord/alpha-nvim"] = { disable = true },
 
